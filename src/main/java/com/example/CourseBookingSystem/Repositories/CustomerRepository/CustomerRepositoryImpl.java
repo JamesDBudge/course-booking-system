@@ -10,29 +10,4 @@ import java.util.List;
 
 public class CustomerRepositoryImpl {
 
-//    @Autowired
-//    EntityManager entityManager;
-//
-//
-//    @Override
-//    @Transactional
-//    public List<Customer> findCustomersOnCourse(String courseName){
-//
-//        List<Customer> result  =  null;
-//
-//        Session session = entityManager.unwrap(Session.class);
-//
-//       try{
-//        Criteria cr = session.createCriteria(Customer.class);
-//        cr.createAlias("customers","customerAlias");
-//        cr.add(Restrictions.eq("customerAlias.booking_id", booking));
-//        result = cr.list();
-//    }catch (HibernateException ex){
-//        ex.printStackTrace();
-//    } finally {
-//
-//    }
-//
-//       return result;
-//}
 }

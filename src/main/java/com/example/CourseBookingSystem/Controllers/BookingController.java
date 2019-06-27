@@ -21,4 +21,6 @@ public class BookingController {
     public List<Booking> getAllBookings() {
         return bookingRepository.findAll();
     }
+
+
 }
